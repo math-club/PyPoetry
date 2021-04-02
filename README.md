@@ -44,8 +44,11 @@ poem = Poem(text)
 ### Get the form of a poem
 
 ```py
->>> poem.form
-(6, 6, 6)
+print(poem.form)
+```
+**Output:**
+```py
+(6, 6, 6)  # Three strophes of six verses.
 ```
 
 ### Iterate on the strophes and verses of a poem
